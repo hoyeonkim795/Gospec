@@ -100,7 +100,7 @@ UCC영상:https://www.youtube.com/watch?v=ff3WVptTH7U&feature=youtu.be  (0:53 �
 
 - 달력 형식으로 공모전 정보를 제공함으로써 사용자 중심의 설계
 
-  ![2](readme\2.JPG)
+  ![image](readme\2.JPG)
 
 - 회원을 대상으로 관심 공모전 **북마크 기능** 제공으로 유저의 편리성을 높임
 
