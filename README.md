@@ -1,37 +1,41 @@
 # GoSpec
 
+*배포주소*: http://tiroring.iptime.org:18080/
+
+시연 가능 계정: id : test/ pw: test
+
+UCC영상:https://www.youtube.com/watch?v=ff3WVptTH7U&feature=youtu.be  (0:53 부터 시연 시작)
+
 ## 팀원 정보 및 업무 분담 내역
 
 팀원: 김현수,김호연,남동규,서지훈,정명주
 
-<!--담당기능 알아서.. 쓰기 -->
-
-| 이름   | 역할            | 담당 기능                    |
-| ------ | --------------- | ---------------------------- |
-| 김현수 | 팀장 및 Backend | Restful API 설계, DB 설계 및 구축, Security 보안처리, JWT 토큰 구현, 팀 매칭 서비스 구현, Docker 구축, Jeknins CI/CD 구축, Swagger 문서 관리|
-| 김호연 | Frontend        | Calendar, Home               |
-| 남동규 | Frontend        | Accounts                     |
-| 서지훈 | Backend         | Restful API 설계, DB 설계 및 구축, File 처리, WebSocket 통신처리, Swagger 문서 관리, Message(Frontend)                         |
-| 정명주 | Frontend        | Contest, Front-end 서버 배포 |
+| 이름   | 역할            | 담당 기능                                                    |
+| ------ | --------------- | ------------------------------------------------------------ |
+| 김현수 | 팀장 및 Backend | Restful API 설계, DB 설계 및 구축, Security 보안처리, JWT 토큰 구현, 팀 매칭 서비스 구현, Docker 구축, Jeknins CI/CD 구축, Swagger 문서 관리 |
+| 김호연 | Frontend        | 아이디어 기획, Restful API 설계, DB 설계, 공모전 정보 달력 인터페이스로 제공 기능 구현, 유저별 달력 기능 구현, 분야별 인기 공모전 기능 구현, 회원별 인기 공모전 기능 구현, 회원가입 |
+| 남동규 | Frontend        | Accounts                                                     |
+| 서지훈 | Backend         | Restful API 설계, DB 설계 및 구축, File 처리, WebSocket 통신처리, Swagger 문서 관리, Message(Frontend) |
+| 정명주 | Frontend        | Contest, Front-end 서버 배포                                 |
 
 
 
 ## 개발 일정
    - 일정관리.cell 참고
 
-![image-20200810154318124](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20200810154318124.png)
+![image-20200925223221826](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925223221826.png)
+
+![image-20200925223240686](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925223240686.png)
 
 ## 개발환경 
 
-<!-- 단순히 framework 명을 적는게 아니라 왜 해당 framework와 tool을 사용했는지 명시할것 -->
-
-### 공통
+### 일정, 버전, 이슈관리
 
 - JIRA
 - GitLab
 - Notion
 
-### Back-end
+### Back-end & Frontend
 
 - Java 8
 - Spring Boot 2.2.8.RELEASE
@@ -48,6 +52,7 @@
 - Docker Client 17.04.0-ce
 - Docker Server 19.03.12
 - Jenkins 2.251
+- Vue.js
 #### 기타
 - MySql WorkBeanch 8.0
 - Mobaxterm
@@ -55,19 +60,12 @@
 - Spring Tool Suite 3
 - Postman
 
-### Front-end
 
-1. Vue.js
-2. 
 
 ## 배포 및 자동화 과정
 
-### Back-end
-
 1. AWS EC2
 2. JENKINS
-
-### Front-end
 
 ## 협업 방법
 
@@ -90,31 +88,27 @@
 
 4. POSTMAN
 
-   <!--누가 제대로 써줄사람..? -->
-
    - Spring Security 사용으로 인한 로그인 api 설정 자동화. 따라서 로그인 토큰 발급을 위해 사용
 
      
 
 ## 프로젝트 배경
 
-- 공모전 정보를 제공하는 기존의 웹사이트의 **불편한 UI/UX 개선**
+- 공모전 정보를 제공하는 기존의 웹사이트의 **불편한 UI/UX 개선** 과 공모전 참가에 팀을 찾는 어려움을 해소하고자 함
 
-  <위비티>
+  ![image-20200925223916959](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925223916959.png)
 
-  ![image-20200810145619873](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20200810145619873.png)
+- 달력 형식으로 공모전 정보를 제공함으로써 사용자 중심의 설계
 
-  -> 사이트 '위비티'의 경우 리스트 형식으로 공모전 정보를 제공
-
-  Gospec
-
-  ![image-20200810145817285](C:\Users\multicampus\AppData\Roaming\Typora\typora-user-images\image-20200810145817285.png)
-
-  -> 달력 형식으로 공모전 정보를 제공함으로써 사용자 중심의 설계
+  ![image-20200925224026698](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224026698.png)
 
 - 회원을 대상으로 관심 공모전 **북마크 기능** 제공으로 유저의 편리성을 높임
 
+  ![image-20200925224145111](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224145111.png)
+
 - 단순 공모전 정보 제공이 아닌 공모전 참여를 원하는 회원들 간에 **팀매칭 서비스** 및 커뮤니티 개설
+
+  ![image-20200925224038170](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224038170.png)
 
 ## 유저 스토리
 
@@ -158,34 +152,78 @@
 
 ## 페이지 UI 및 기능
 
-1. GoSpec 메인 페이지
-2. 홈 화면
-3. 전체일정
+1. GoSpec 메인페이지
+
+   ![image-20200925224556321](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224556321.png)
+
+2. Home 화면
+
+   ![image-20200925224806309](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224806309.png)
+
+3. 전체일정 및 내일정(북마크)
+
+   1) 전체 일정 및 내일정
+
+   ![image-20200925224831058](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224831058.png)
+
+   2) 상세 일정
+
+   ![image-20200925224935329](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224935329.png)
+
 4. 공모전
-5. 스터디
-6. 취업정보
 
-## 배운점
+   1) 분야별 인기 공모전 및 기간 별 공모전
 
-### 협업시
+   ![image-20200925225103122](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225103122.png)
 
-1. 김현수
-2. 김호연
-3. 남동규
-4. 서지훈
-5. 정명주
+   2) 공모전 디테일
 
-### 개발시
+   ![image-20200925225155724](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225155724.png)
 
-<!--겪었던 이슈 및 배운 기술사항-->
+   3) 공모전 팀찾기 커뮤니티
 
-1. 김현수
-2. 김호연
-3. 남동규
-4. 서지훈
-5. 정명주
+   ![image-20200925225227459](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225227459.png)
 
+   4) 공모전 팀원찾기 커뮤니티
 
+   ![image-20200925225245849](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225245849.png)
 
+5. 프로필
 
+   1) 회원별 프로필 확인
 
+   ![image-20200925225346035](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225346035.png)
+
+   2) 프로필 수정
+
+   ![image-20200925230121106](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230121106.png)
+
+   3) 북마크한 공모전 목록
+
+   ![image-20200925230224065](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230224065.png)
+
+   4) 지원한 팀 관리
+
+   ![image-20200925230249681](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230249681.png)
+
+   5) 내가 쓴 팀 관리
+
+   ![image-20200925230324549](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230324549.png)
+
+   6) 내 프로필 확인
+
+   ![image-20200925230400702](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230400702.png)
+
+6. 쪽지기능
+
+   1) 쪽지 전송
+
+   ![image-20200925225453590](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225453590.png)
+
+   2) 쪽지함 기능
+
+   ![image-20200925225555250](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225555250.png)
+
+   
+
+   
