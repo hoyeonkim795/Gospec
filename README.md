@@ -23,9 +23,9 @@ UCC영상:https://www.youtube.com/watch?v=ff3WVptTH7U&feature=youtu.be  (0:53 �
 ## 개발 일정
    - 일정관리.cell 참고
 
-![image-20200925223221826](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925223221826.png)
+![19](C:\Users\hy940\Desktop\Gospec\readme\19.JPG)
 
-![image-20200925223240686](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925223240686.png)
+![20](C:\Users\hy940\Desktop\Gospec\readme\20.JPG)
 
 ## 개발환경 
 
@@ -96,19 +96,19 @@ UCC영상:https://www.youtube.com/watch?v=ff3WVptTH7U&feature=youtu.be  (0:53 �
 
 - 공모전 정보를 제공하는 기존의 웹사이트의 **불편한 UI/UX 개선** 과 공모전 참가에 팀을 찾는 어려움을 해소하고자 함
 
-  ![image-20200925223916959](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925223916959.png)
+  ![1](C:\Users\hy940\Desktop\Gospec\readme\1.JPG)
 
 - 달력 형식으로 공모전 정보를 제공함으로써 사용자 중심의 설계
 
-  ![image-20200925224026698](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224026698.png)
+  ![2](C:\Users\hy940\Desktop\Gospec\readme\2.JPG)
 
 - 회원을 대상으로 관심 공모전 **북마크 기능** 제공으로 유저의 편리성을 높임
 
-  ![image-20200925224145111](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224145111.png)
+  ![3](C:\Users\hy940\Desktop\Gospec\readme\3.JPG)
 
 - 단순 공모전 정보 제공이 아닌 공모전 참여를 원하는 회원들 간에 **팀매칭 서비스** 및 커뮤니티 개설
 
-  ![image-20200925224038170](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224038170.png)
+  ![4](C:\Users\hy940\Desktop\Gospec\readme\4.jpg)
 
 ## 유저 스토리
 
@@ -154,75 +154,75 @@ UCC영상:https://www.youtube.com/watch?v=ff3WVptTH7U&feature=youtu.be  (0:53 �
 
 1. GoSpec 메인페이지
 
-   ![image-20200925224556321](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224556321.png)
+   ![6](C:\Users\hy940\Desktop\Gospec\readme\6.JPG)
 
 2. Home 화면
 
-   ![image-20200925224806309](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224806309.png)
+   ![7](C:\Users\hy940\Desktop\Gospec\readme\7.JPG)
 
 3. 전체일정 및 내일정(북마크)
 
    1) 전체 일정 및 내일정
 
-   ![image-20200925224831058](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224831058.png)
+   ![8](C:\Users\hy940\Desktop\Gospec\readme\8.jpg)
 
    2) 상세 일정
 
-   ![image-20200925224935329](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925224935329.png)
+   ![9](C:\Users\hy940\Desktop\Gospec\readme\9.jpg)
 
 4. 공모전
 
    1) 분야별 인기 공모전 및 기간 별 공모전
 
-   ![image-20200925225103122](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225103122.png)
+   ![10](C:\Users\hy940\Desktop\Gospec\readme\10.JPG)
 
    2) 공모전 디테일
 
-   ![image-20200925225155724](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225155724.png)
+   ![11](C:\Users\hy940\Desktop\Gospec\readme\11.JPG)
 
    3) 공모전 팀찾기 커뮤니티
 
-   ![image-20200925225227459](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225227459.png)
+   ![4](C:\Users\hy940\Desktop\Gospec\readme\4.jpg)
 
    4) 공모전 팀원찾기 커뮤니티
 
-   ![image-20200925225245849](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225245849.png)
+   ![5](C:\Users\hy940\Desktop\Gospec\readme\5.jpg)
 
 5. 프로필
 
    1) 회원별 프로필 확인
 
-   ![image-20200925225346035](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225346035.png)
+   ![18](C:\Users\hy940\Desktop\Gospec\readme\18.JPG)
 
    2) 프로필 수정
 
-   ![image-20200925230121106](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230121106.png)
+   ![15](C:\Users\hy940\Desktop\Gospec\readme\15.JPG)
 
    3) 북마크한 공모전 목록
 
-   ![image-20200925230224065](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230224065.png)
+   ![21](C:\Users\hy940\Desktop\Gospec\readme\21.JPG)
 
    4) 지원한 팀 관리
 
-   ![image-20200925230249681](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230249681.png)
+   ![12](C:\Users\hy940\Desktop\Gospec\readme\12.JPG)
 
    5) 내가 쓴 팀 관리
 
-   ![image-20200925230324549](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230324549.png)
+   ![13](C:\Users\hy940\Desktop\Gospec\readme\13.JPG)
 
    6) 내 프로필 확인
 
-   ![image-20200925230400702](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925230400702.png)
+   ![14](C:\Users\hy940\Desktop\Gospec\readme\14.JPG)
 
 6. 쪽지기능
 
    1) 쪽지 전송
 
-   ![image-20200925225453590](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225453590.png)
+   ![17](C:\Users\hy940\Desktop\Gospec\readme\17.JPG)
 
    2) 쪽지함 기능
 
-   ![image-20200925225555250](C:\Users\hy940\AppData\Roaming\Typora\typora-user-images\image-20200925225555250.png)
+   ![16](C:\Users\hy940\Desktop\Gospec\readme\16.JPG)
 
    
 
