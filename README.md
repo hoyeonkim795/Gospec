@@ -164,7 +164,7 @@ UCC영상:https://www.youtube.com/watch?v=ff3WVptTH7U&feature=youtu.be  (0:53 �
 
    1) 전체 일정 및 내일정
 
-   ![8](./readme/\8.jpg)
+   ![8](./readme/8.jpg)
 
    2) 상세 일정
 
